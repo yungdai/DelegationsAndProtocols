@@ -14,6 +14,16 @@
 
 @implementation ViewController
 
+
+-(void)requiredTask:(NSString *)theRequiredTask {
+    NSLog(@"%@", theRequiredTask);
+}
+
+-(void)generateReport {
+    NSLog(@"This report is done");
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.

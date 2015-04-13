@@ -14,6 +14,7 @@
 		1A7EBEC91ADC0AC2005B95DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A7EBEC81ADC0AC2005B95DD /* Images.xcassets */; };
 		1A7EBECC1ADC0AC2005B95DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A7EBECA1ADC0AC2005B95DD /* LaunchScreen.xib */; };
 		1A7EBED81ADC0AC2005B95DD /* DelegationsAndProtocolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7EBED71ADC0AC2005B95DD /* DelegationsAndProtocolsTests.m */; };
+		1A7EBEE41ADC0B22005B95DD /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7EBEE31ADC0B22005B95DD /* Task.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		1A7EBED11ADC0AC2005B95DD /* DelegationsAndProtocolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelegationsAndProtocolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A7EBED61ADC0AC2005B95DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A7EBED71ADC0AC2005B95DD /* DelegationsAndProtocolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegationsAndProtocolsTests.m; sourceTree = "<group>"; };
+		1A7EBEE21ADC0B22005B95DD /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		1A7EBEE31ADC0B22005B95DD /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		1A7EBEAF1ADC0AC2005B95DD = {
 			isa = PBXGroup;
 			children = (
+				1A7EBEE11ADC0AF2005B95DD /* Model */,
 				1A7EBEBA1ADC0AC2005B95DD /* DelegationsAndProtocols */,
 				1A7EBED41ADC0AC2005B95DD /* DelegationsAndProtocolsTests */,
 				1A7EBEB91ADC0AC2005B95DD /* Products */,
@@ -117,6 +121,15 @@
 				1A7EBED61ADC0AC2005B95DD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A7EBEE11ADC0AF2005B95DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A7EBEE21ADC0B22005B95DD /* Task.h */,
+				1A7EBEE31ADC0B22005B95DD /* Task.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A7EBEE41ADC0B22005B95DD /* Task.m in Sources */,
 				1A7EBEC41ADC0AC2005B95DD /* ViewController.m in Sources */,
 				1A7EBEC11ADC0AC2005B95DD /* AppDelegate.m in Sources */,
 				1A7EBEBE1ADC0AC2005B95DD /* main.m in Sources */,
